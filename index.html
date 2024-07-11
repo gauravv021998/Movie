@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search">
+      <input
+        id="movieName"
+        class="search-input"
+        type="text"
+        placeholder="Search movie..."
+      />
+      <button onclick="searchMovie()" class="btn">Search</button>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h2 id="title" class="title"><u>Movie</u></h2>
+        <p><u>Director: </u><span id="director"></span></p>
+        <p><u>Actors:</u> <span id="actors"></span></p>
+        <p><u>Box office collection: </u><span id="collection"></span></p>
+        <p><u>Discription:</u> <span id="desc"></span></p>
+        <p><u>Awards:</u> <span id="awards"></span></p>
+        <p><u>Writer:</u> <span id="writer"></span></p>
+        <p><u>imdbRating:</u> <span id="ratings"></span></p>
+        <p><u>Genre:</u> <span id="genre"></span></p>
+        <p><u>Released on:</u> <span id="date"></span></p>
+      </div>
+      <img
+        src="https://source.unsplash.com/1300x1000/?movie"
+        class="poster"
+        id="poster"
+        alt=""
+      />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
